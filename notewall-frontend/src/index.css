@@ -1,0 +1,50 @@
+:root {
+  --cork-1: #b9895f;
+  --cork-2: #a3744c;
+  --frame: #5a3a26;
+  --ink: #2b211a;
+  --paper-edge: rgba(0, 0, 0, 0.18);
+
+  --note-yellow: #f4d160;
+  --note-pink: #f0a6b8;
+  --note-blue: #9bc9d8;
+  --note-green: #a8cf8e;
+
+  --cream: #fbf6ec;
+  --danger: #b3492f;
+
+  --font-hand: "Kalam", cursive;
+  --font-display: "Caveat", cursive;
+  --font-ui: "Inter", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-ui);
+  color: var(--ink);
+  background: var(--cork-1);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
