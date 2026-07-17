@@ -2,7 +2,7 @@
 
 > A production-ready full-stack sticky note application with private per-user workspaces powered by Clerk authentication.
 
-🔗 **Live Demo:** [Add your Vercel URL here]
+🔗 **Live Demo:** https://getnotewall.vercel.app/
 
 ---
 
